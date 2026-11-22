@@ -58,7 +58,7 @@ If the host sets a Content Security Policy, allow scripts from `https://platform
 ## Navigate the article
 
 - **Contents** is the sticky sidebar. Its titles and dates preserve the order of the original article. Select its header to collapse it into a narrow rail or open it again. On phones, it starts collapsed and closes after you select a section.
-- **Timeline** sticks to the bottom and sorts the same section links chronologically. Swipe or scroll it horizontally. Select its header to collapse it to one row or expand it. It starts collapsed on phones.
+- **Timeline** sticks to the bottom and lists dates in chronological order, with each section title below its date. Swipe or scroll it horizontally. Select its header to collapse it to one row or expand it. It starts collapsed on phones.
 - Both bars highlight the section you are reading where it appears in their list. The article, its images, and the section links live in the HTML. With JavaScript enabled, **Copy section link** provides a shareable link to each section.
 
 ## Link previews

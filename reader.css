@@ -245,9 +245,14 @@
   width: max-content;
 }
 .br-reader .br-timeline nav li { flex: 0 0 auto; }
-.br-reader .br-timeline nav a { height: 100%; border: 1px solid var(--_border); min-width: 5.8rem; }
-.br-reader .br-timeline nav a br { display: none; }
-.br-reader .br-timeline nav a .br-label { white-space: nowrap; }
+.br-reader .br-timeline nav a {
+  height: 100%;
+  border: 1px solid var(--_border);
+  min-inline-size: 5.8rem;
+  max-inline-size: min(13rem, 75vw);
+}
+.br-reader .br-timeline nav time { font-weight: 650; white-space: nowrap; }
+.br-reader .br-timeline .br-label { font-size: 0.8125rem; font-weight: 400; }
 
 .br-reader :where(.br-mini, .br-action) {
   display: inline-flex;
